@@ -1,0 +1,6 @@
+﻿  OpenNISensor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Generating Code...
+opencv_world310d.lib(opencv_world310d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'

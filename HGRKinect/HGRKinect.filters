@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="Sampler.h">
+      <Filter>DataProcesing\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformer.h">
+      <Filter>DataProcesing\Transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenNISensor.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBDSensor.h">
+      <Filter>Sensor\RGBDSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw3.h">
+      <Filter>DataProcesing\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="svm.h">
+      <Filter>SVM</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sampler.cpp">
+      <Filter>DataProcesing\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformer.cpp">
+      <Filter>DataProcesing\Transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenNISensor.cpp">
+      <Filter>Sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBDSensor.cpp">
+      <Filter>Sensor\RGBDSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="svm.cpp">
+      <Filter>SVM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sensor">
+      <UniqueIdentifier>{ce9b2b3a-e51c-4668-937f-acaf0b2dfe37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensor\RGBDSensor">
+      <UniqueIdentifier>{73ab9d04-a2b6-4567-802a-fb9d58f17623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SVM">
+      <UniqueIdentifier>{bdc6e05b-d615-41d0-b1f2-247fe69b3a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcesing">
+      <UniqueIdentifier>{b4ec729c-39fa-4523-86b0-c12a794d6dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcesing\Sampler">
+      <UniqueIdentifier>{9c039efd-a95e-4637-88c6-824dcae21f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcesing\Transformer">
+      <UniqueIdentifier>{77e4473f-c799-4a93-9b8c-8fdafd362af3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="trainFolderPaths.txt">
+      <Filter>DataProcesing</Filter>
+    </Text>
+    <Text Include="testFolderPaths.txt">
+      <Filter>DataProcesing</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

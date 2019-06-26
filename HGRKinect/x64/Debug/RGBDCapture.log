@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (RGBDCapture.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  OpenNISensor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\uni\prs\rgbdcapture\rgbdcapture\opennisensor.cpp(93): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  RGBDSensor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Sampler.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\uni\prs\rgbdcapture\rgbdcapture\sampler.cpp(25): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+d:\uni\prs\rgbdcapture\rgbdcapture\sampler.cpp(26): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+d:\uni\prs\rgbdcapture\rgbdcapture\sampler.cpp(40): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+  svm.cpp
+  Transformer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\uni\prs\rgbdcapture\rgbdcapture\transformer.cpp(151): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\uni\prs\rgbdcapture\rgbdcapture\transformer.cpp(152): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  RGBDCapture.vcxproj -> D:\Uni\PRS\RGBDCapture\x64\Debug\HGRKinect.exe

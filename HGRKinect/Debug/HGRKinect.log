@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (RGBDCapture.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  OpenNISensor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  RGBDSensor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  Sampler.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\uni\prs\rgbdcapture\hgrkinect\sampler.cpp(25): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+d:\uni\prs\rgbdcapture\hgrkinect\sampler.cpp(26): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+d:\uni\prs\rgbdcapture\hgrkinect\sampler.cpp(40): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+  svm.cpp
+  Transformer.cpp
+  Unknown compiler version - please run the configure tests and report the results
+d:\uni\prs\rgbdcapture\hgrkinect\transformer.cpp(52): warning C4018: '<': signed/unsigned mismatch
+d:\uni\prs\rgbdcapture\hgrkinect\transformer.cpp(92): warning C4018: '<': signed/unsigned mismatch
+d:\uni\prs\rgbdcapture\hgrkinect\transformer.cpp(95): warning C4018: '<': signed/unsigned mismatch
+d:\uni\prs\rgbdcapture\hgrkinect\transformer.cpp(139): warning C4018: '<': signed/unsigned mismatch
+d:\uni\prs\rgbdcapture\hgrkinect\transformer.cpp(180): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'libfftw3-3.lib'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(720,5): error MSB6006: "link.exe" exited with code 1104.

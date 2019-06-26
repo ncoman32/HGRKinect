@@ -1,0 +1,10 @@
+﻿  main.cpp
+d:\uni\prs\rgbdcapture\rgbdcapture\rgbdsensor.h(6): fatal error C1083: Cannot open include file: 'boost/filesystem.hpp': No such file or directory
+  OpenNISensor.cpp
+d:\uni\prs\rgbdcapture\rgbdcapture\rgbdsensor.h(6): fatal error C1083: Cannot open include file: 'boost/filesystem.hpp': No such file or directory
+  RGBDSensor.cpp
+d:\uni\prs\rgbdcapture\rgbdcapture\rgbdsensor.h(6): fatal error C1083: Cannot open include file: 'boost/filesystem.hpp': No such file or directory
+  Sampler.cpp
+d:\uni\prs\rgbdcapture\rgbdcapture\sampler.h(4): fatal error C1083: Cannot open include file: 'boost/filesystem.hpp': No such file or directory
+  Transformer.cpp
+d:\uni\prs\rgbdcapture\rgbdcapture\transformer.h(2): fatal error C1083: Cannot open include file: 'opencv2/opencv.hpp': No such file or directory

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RGBDSensor.cpp">
+      <Filter>Sensor</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenNISensor.cpp">
+      <Filter>Sensor\KinectSensor</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformer.cpp">
+      <Filter>DataProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>DataProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="svm.cpp">
+      <Filter>SVM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="RGBDSensor.h">
+      <Filter>Sensor</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenNISensor.h">
+      <Filter>Sensor\KinectSensor</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformer.h">
+      <Filter>DataProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>DataProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw3.h">
+      <Filter>DataProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="svm.h">
+      <Filter>SVM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testFolderPaths.txt">
+      <Filter>DataProcessing</Filter>
+    </Text>
+    <Text Include="trainFolderPaths.txt">
+      <Filter>DataProcessing</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sensor">
+      <UniqueIdentifier>{715caa2a-0cbd-43cb-a5fe-ec68cd9c37b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sensor\KinectSensor">
+      <UniqueIdentifier>{ebeb6fa3-d898-4ff3-8f50-6869a85bd9a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcessing">
+      <UniqueIdentifier>{03d803be-6fc4-466f-9ba2-93ddb8725822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SVM">
+      <UniqueIdentifier>{f4540dff-0289-495f-847c-3a993dd8a0eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
