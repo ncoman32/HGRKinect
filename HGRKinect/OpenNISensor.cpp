@@ -307,7 +307,7 @@ void OpenNISensor::scan() {
 
 	if (m_device.isImageRegistrationModeSupported(openni::IMAGE_REGISTRATION_OFF)) {
 		if (0 == m_device.setImageRegistrationMode(openni::IMAGE_REGISTRATION_OFF)) {
-			cout << "Registration ok !";
+			cout << "No registration! ";
 		}
 	}
 
